@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   
-  
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -27,7 +27,7 @@
 
   <script src="https://kit.fontawesome.com/c06a037a1d.js" crossorigin="anonymous"></script>
 
-  <!-- Template Main CSS File -->
+  <!-- 247homehealth Main CSS File -->
   <link href="assets/styles/style.css" rel="stylesheet">
 
   <style>
@@ -70,13 +70,19 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Gallery</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#team">Other services</a></li>
+          
+          <li><a class="nav-link scrollto " href="#portfolio">Wearable Tech</a></li>
+
+          
+          
+          
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
 
 
-          <a href="#" class="scrollto btn mobile-account" id="must" 
+          <a data-signin="login" href="#" data-bs-toggle="modal" data-bs-target="#login" class="scrollto btn mobile-account"  id="must" 
           style="color: #f6b024;
                       font-weight: bolder;
                       display: inline-block;
@@ -84,7 +90,7 @@
                       margin-left: 3rem;
                   ">Sign In</a>
         
-            <a href="#" class="scrollto btn mobile-account" 
+            <a data-signin="signup" href="#" data-bs-toggle="modal" data-bs-target="#register" class="scrollto btn mobile-account" 
             style="color: #fff;
                     background: #f6b024;
                     padding: 6px 24px 8px 24px;
@@ -97,7 +103,6 @@
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
 
-        
       </nav><!-- .navbar -->
 
     </div>
@@ -300,7 +305,8 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Our wide range of services ensures that you receive the best possible care in the comfort of your own home, promoting
+          health, independence, and peace of mind. Explore our services designed to support your journey to better health.</p>
         </div>
 
         <div class="row">
@@ -447,6 +453,73 @@
     </section><!-- End Pricing Section -->
 
 
+    <!-- ======= Other services Section ======= -->
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+          <h2>Other Services</h2>
+          <p>In addition to our exceptional home health care services, we offer a suite of specialized services designed to ensure
+          convenience, accessibility, and quality care for you and your loved ones.</p>
+        </div>
+    
+        <div class="row">
+    
+          <div onclick="window.location.href='https://247pharmacy.net'" class="col-lg-6 other-services" data-aos="fade-up" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/images/247pharmacy.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>247Pharmacy</h4>
+                <span>www.247pharmacy.net</span>
+                <p>Our 24/7 pharmacy service ensures you have access to necessary medications around the clock.</p>
+              </div>
+            </div>
+          </div>
+    
+          <div onclick="window.location.href='https://247doc.net'" class="col-lg-6 mt-4 mt-lg-0 other-services" data-aos="fade-up" data-aos-delay="200">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/images/247doc.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>247Doctor</h4>
+                <span>www.247doc.net</span>
+                <p>Our 24/7 doctor service connects you with experienced physicians for immediate medical consultations. </p>
+                
+              </div>
+            </div>
+          </div>
+    
+          <div onclick="window.location.href='https://laboratory.net'" class="col-lg-6 mt-4 other-services" data-aos="fade-up" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/images/247LAB.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>247Laboratory</h4>
+                <span>www.247laboratory.net</span>
+                <p>Our 24/7 laboratory service offers convenient and efficient diagnostic testing. From routine blood tests to specialized
+                diagnostic procedures, our lab services ensure...</p>
+                
+              </div>
+            </div>
+          </div>
+    
+          <div onclick="window.location.href='https://247delivery.net'" class="col-lg-6 mt-4 other-services" data-aos="fade-up" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="assets/images/247delivery.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>247delivery</h4>
+                <span>www.247delivery.net</span>
+                <p>With our 24/7 delivery service, you can receive essential health supplies and equipment at any time. Whether you need
+                medical supplies...</p>
+                
+              </div>
+            </div>
+          </div>
+    
+        </div>
+    
+      </div>
+    </section><!-- End Other services Section -->
+
+
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -471,7 +544,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Gallery</h2>
+          <h2>Wearable and Home Technologies</h2>
           <p>Discover Quality Care & Equipment: Explore our gallery showcasing compassionate services and top-notch home health equipment. From skilled nursing to specialized therapies, witness our dedication to your well-being.</p>
         </div>
 
@@ -489,91 +562,91 @@
         <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/images/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/1.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Work 1</h4>
               <p>Work</p>
-              <a href="assets/images/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/images/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/2.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>home 3</h4>
               <p>Home</p>
-              <a href="assets/images/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/images/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/3.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Work 2</h4>
               <p>Work</p>
-              <a href="assets/images/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/images/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/4.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Equipment 2</h4>
               <p>Equipment</p>
-              <a href="assets/images/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/images/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/5.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Home 2</h4>
               <p>Home</p>
-              <a href="assets/images/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/images/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/6.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Work 3</h4>
               <p>Work</p>
-              <a href="assets/images/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/images/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/7.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Equipment 1</h4>
               <p>Equipment</p>
               <a href="assets/images/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/images/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/8.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Home</p>
-              <a href="assets/images/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/images/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <img src="assets/images/portfolio/9.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Equipment 3</h4>
               <p>Equipment</p>
-              <a href="assets/images/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="#" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
@@ -706,7 +779,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button class="btn btn-outline-success" type="submit">Send Message</button></div>
             </form>
 
           </div>
@@ -716,7 +789,126 @@
       </div>
     </section><!-- End Contact Section -->
 
+
+<!-- ======= Registration and signing modal ======= -->
+   
+
+<!-- Register Modal -->
+<div class="modal fade" id="register" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content account-bg">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 account-title" id="staticBackdropLabel">Create an account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="registrationForm" novalidate>
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter first name" required>
+            <div class="invalid-feedback">Please provide your first name.</div>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter last name" required>
+            <div class="invalid-feedback">Please provide your last name.</div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email" required>
+            <div class="invalid-feedback">Please provide a valid email address.</div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Enter phone number" required>
+            <div class="invalid-feedback">Please provide your phone number.</div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+            <div class="invalid-feedback">Please provide a password.</div>
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm password" required>
+            <div class="invalid-feedback">Passwords do not match.</div>
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="Enter address" required>
+            <div class="invalid-feedback">Please provide your address.</div>
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter city" required>
+            <div class="invalid-feedback">Please provide your city.</div>
+          </div>
+          <div class="form-group">
+            <label for="state">State</label>
+            <input type="text" class="form-control" id="state" placeholder="Enter state" required>
+            <div class="invalid-feedback">Please provide your state.</div>
+          </div>
+          <div class="form-group">
+            <label for="zip">Zip Code</label>
+            <input type="text" class="form-control" id="zip" placeholder="Enter zip code" required>
+            <div class="invalid-feedback">Please provide your zip code.</div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn account-btn" id="register-btn">Register</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Sign In Modal -->
+<div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+  aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5 account-title" id="staticBackdropLabel">Sign In to your account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="sign-in" id="signInForm" novalidate>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" required>
+            <div class="invalid-feedback">
+              Please enter a valid email address.
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" required>
+            <div class="invalid-feedback">
+              Please enter your password.
+            </div>
+          </div>
+          <div class="form-check">
+            <input style="accent-color: 00fb62;" type="checkbox" class="form-check-input" id="remember-me">
+            <label class="form-check-label" for="remember-me">Remember me</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn account-btn" id="signInButton">Sign In</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   
+<!-- ======= Register modals end ======= -->
+
   </main><!-- End #main -->
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -769,7 +961,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#pricing">Pricing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Gallery</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Wearables Tech</a></li>
               
             </ul>
           </div>
@@ -811,9 +1003,13 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   <!-- Template Main JS File -->
   <script src="assets/scripts/main.js"></script>
-
+  <script src="assets/scripts/register.js"></script>
+  <script src="assets/scripts/login.js"></script>
 </body>
 
 </html>

@@ -1298,9 +1298,9 @@ section {
 }
 
 .team .member .pic {
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 180px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 
 .team .member .pic img {
@@ -1926,4 +1926,8 @@ section {
 
 .account-bg {
   background-color: #cae9c9 !important;
+}
+
+.form-check-input {
+  accent-color: #00bf62 !important;
 }
